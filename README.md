@@ -62,14 +62,13 @@ RustScans **only** job is to reduce the friction between finding open ports and 
 
 | Installation Guide | Documentation | Discord |
 | ------------------ | ------------- | ------- |
-| 📖 [Installation Guide](https://github.com/RustScan/RustScan#-full-installation-guide) | 📚 [Documentation](https://github.com/RustScan/RustScan/issues/89) | 🦜 [Discord](https://discord.gg/GFrQsGy)
+| 📖 [Installation Guide](https://github.com/fu8uk1/RustScan#-full-installation-guide) | 📚 [Documentation](https://github.com/fu8uk1/RustScan/issues/89) | 
 
 ## 🙋 Table of Contents
-* 📖 [Installation Guide](https://github.com/RustScan/RustScan#-full-installation-guide)
-* 🐋 [Docker Usage](https://github.com/RustScan/RustScan#docker-whale)
-* 🦜 [Discord](https://discord.gg/GFrQsGy)
-* 🤸 [Usage](https://github.com/RustScan/RustScan#-usage)
-* 🎪 [Community](https://github.com/RustScan/RustScan#-community)
+* 📖 [Installation Guide](https://github.com/fu8uk1/RustScan#-full-installation-guide)
+* 🐋 [Docker Usage](https://github.com/fu8uk1/RustScan#docker-whale)
+* 🤸 [Usage](https://github.com/fu8uk1/RustScan#-usage)
+* 🎪 [Community](https://github.com/fu8uk1/RustScan#-community)
 
 # 🔭 Why RustScan?
 Why spend time running fast scans and manually copying the ports, or waiting for a 20 minute scan to finish when you can just do all 65k ports in less than a minute?
@@ -101,7 +100,7 @@ Note: sometimes Rust doesn't add Cargo to the path. Please see [this issue](http
 
 Download the .deb file from the releases page:
 
-[https://github.com/brandonskerritt/RustScan/releases](https://github.com/brandonskerritt/RustScan/releases)
+[https://github.com/fu8uk1/RustScan/releases](https://github.com/fu8uk1/RustScan/releases)
 
 Run the commpand `dpkg -i` on the file. 
 
@@ -110,7 +109,7 @@ Note: sometimes you can double click the file to achieve the same result.
 ## Docker :whale:
 
 Docker is the recommended way of installing RustScan. This is because:
-* It has a high open file descriptor limit, which is one of the [main problems](https://github.com/RustScan/RustScan/issues/40) with RustScan. Now you don't have to fiddle around trying to understand your OS.
+* It has a high open file descriptor limit, which is one of the [main problems](https://github.com/fu8uk1/RustScan/issues/40) with RustScan. Now you don't have to fiddle around trying to understand your OS.
 * It works on all systems, regardless of OS. Even Windows, which we don't officially support.
 * The Docker image uses the latest build from Cargo, our main source-of-truth package. This means that you will always be using the latest version.
 * No need to install Rust, Cargo, or Nmap.
@@ -182,7 +181,7 @@ rustscan -h
 
 ```
 RustScan 1.2.0
-Bee https://github.com/brandonskerritt
+Bee https://github.com/fu8uk1
 Fast Port Scanner built in Rust
 WARNING Do not use this program against sensitive infrastructure. The specified server may not be able to handle this
 many socket connections at once.
@@ -309,17 +308,17 @@ Howdy Space Cow-Person 🤠🌌
 
 RustScan is always looking for contributors. Whether that's spelling mistakes or major changes, your help is **wanted** and welcomed here.
 
-Before contributing, read our [code of conduct](https://github.com/RustScan/RustScan/blob/master/CODE_OF_CONDUCT.md).
+Before contributing, read our [code of conduct](https://github.com/fu8uk1/RustScan/blob/master/CODE_OF_CONDUCT.md).
 
 TL;DR if you abuse members of our community you will be **perma-banned** 🤗
 
 RustScan has 2 major labels for GitHub issues you should look at:
 * Good First issue
 These are issues for newcomers to open source! 
-[https://github.com/RustScan/RustScan/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22](https://github.com/RustScan/RustScan/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
+[https://github.com/fu8uk1/RustScan/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22](https://github.com/RustScan/RustScan/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
 * Help wanted
 These are issues that aren't really for newcomers, but we could still do wiht help!
-[https://github.com/RustScan/RustScan/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22+label%3A%22help+wanted%22](https://github.com/RustScan/RustScan/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22+label%3A%22help+wanted%22)
+[https://github.com/fu8uk1/RustScan/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22+label%3A%22help+wanted%22](https://github.com/RustScan/RustScan/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22+label%3A%22help+wanted%22)
 
 If you want to, solve the issue or comment on the issue for help.
 
@@ -333,8 +332,6 @@ And then comment on the issue that you've done.
 RustScan also has some `// TODO`'s in the codebase, which are meant more for the core team but we wouldn't say no to help with these issues.
 
 If you have any feature suggestions or bugs, leave a GitHub issue. We welcome any and all support :D
-
-We communicate over Discord. [Click here](https://discord.gg/GFrQsGy) to join our Discord community!
 
 ## Rewarding you
 I cannot pay you :-( But, I can place your GitHub profile on the README under `#Contributors` as a thank you! :)
